@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Contactános</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+
 </head>
 
 <body id="body1">
@@ -14,7 +17,7 @@
             <img src="Imagenes/logo.jpg" alt="logo"   id="imagenlogo" >
         </a>
         <div id="cortos">
-            <h1 id="titulo">Contactános</h1>
+            <h1 id="titulo">Contáctenos</h1>
         </div>
     </header>
     
@@ -23,41 +26,46 @@
             <li class="menu"><a href="inicio.html">Inicio</a></li>
             <li class="menu"><a href="propiedades.html">Propiedades</a></li>
             <li class="menu"><a href="emprendimientos.html">Emprendimientos</a></li>
-            <li class="menu"><a href="contactanos.html">Contactános</a></li>
+            <li class="menu"><a href="contactanos.html">Contáctenos</a></li>
         </ul>
     </nav>
    
     <br><br><br>
 
     <main>
-        <h2 id="form">Formulario de Contácto</h2>
+        <h2 id="form">Formulario de Contacto</h2>
         <br><br>
         <div id="form2">
             <form action="">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="Nombre" >
+                <label for="" class="bienvenido">!BIENVENIDO¡</label>
+        <br><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
     
         <br><br>
     
-            <label for="apellido">Apellido</label>
-            <input type="text"  id="apellido" >
+            <label for="apellido">Apellido:</label>
+            <input type="text"  id="apellido" required>
 
         <br><br>
 
-            <label for="fechaida">Fecha de Nacimiento</label>
-            <input type="date" id="fechaida">
+            <label for="fechaida">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaida" required>
 
         <br><br>
 
-            <label for="mail"></label>
-            <input type="text" id="mail" placeholder="Email de contacto">
+            <label for="mail">Correo electronico:</label>
+            <input type="text" id="mail" placeholder="Email de contacto" required>
 
         <br><br>
 
-            <label for="tarjeta">Num celular</label>
-            <input type="text"  id="tarjeta">
+            <label for="num">Num celular</label>
+            <input type="text"  id="num" required>
 
         <br><br>
+
+            <button type="submit" id="button1">Enviar</button>
 
         </form>
     <br><br>
@@ -65,16 +73,9 @@
     </main>
 
     <hr size="2px" color="red">
+
 <footer>
-    <div id="divcontacto">
-        <h2>¡Contactános!</h2>
-        <ul id="lifooter">
-            <li>Inicio</li>
-            <li>Propiedades</li>
-            <li>Emprendimientos</li>
-            <li>Contacto</li>
-        </ul>
-    </div>    
+ 
 
     <div id="divllamar">
         <h2>Llamanos</h2>
@@ -92,5 +93,7 @@
     </div>
 
 </footer>
+
+<script src="java.js"></script>
 </body>
 </html>

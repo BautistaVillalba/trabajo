@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Propiedades</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 
 <body id="body1">
@@ -23,78 +24,129 @@
             <li class="menu"><a href="inicio.html">Inicio</a></li>
             <li class="menu"><a href="propiedades.html">Propiedades</a></li>
             <li class="menu"><a href="emprendimientos.html">Emprendimientos</a></li>
-            <li class="menu"><a href="contactanos.html">Contactános</a></li>
+            <li class="menu"><a href="contactanos.html">Contáctenos</a></li>
         </ul>
     </nav>
 
     <br><br><br>
     
     <main>
-        <div id=" cuadropropiedades">
+        <div id="cuadropropiedades">
             <h2>Alquileres</h2>
-            <div class="cuadropropiedades">
-                <h3>La Martina 860</h3>
+            
+            <div>
+                <button type="button" id="mostrarcasas"><b>Mostrar Casas</b></button>
+                <button type="button" id="mostrardepas"><b>Mostrar Departamentos</b></button>
+            </div>
+            
+            <div class="cuadropropiedades" id="casa1">
+                <h3 >Casa 1</h3>
                 <img  src="IMAGENES\casa1.jpg" alt="">
+                <div>
+                    <div >
+                        <div class="propiedades">
+                        <p>Desde 28 Ene hasta 28 Feb</p>
+                        <p>¡Haz que tus vacaciones sean inolvidables!</p>
+                        <p>12 camas, 3 baños</p>
+                        <p>Precio final p/p $100.000</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cuadropropiedades">
-                <h3>Departamento</h3>
+            <div class="cuadropropiedades"id="depa1">
+                <h3 >Departamento 1</h3>
                 <img src="IMAGENES\depa1.jpg" alt="">
+                <div>
+                    <div>
+                        <div >
+                            <div class="propiedades">
+                            <p>Desde 15 Ene hasta 30 Ene</p>
+                            <p>¡El lugar que estas buscando!</p>
+                            <p> 5 camas, 2 baños</p>
+                            <p>Precio final p/p $160.000 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cuadropropiedades">
-                <h3>Cabaña</h3>
+            <div class="cuadropropiedades"id="casa2">
+                <h3 >Casa 2</h3>
                 <img src="IMAGENES\cabaña.jpg" alt="">
+                <div>
+                    <div>
+                        <div >
+                            <div class="propiedades">
+                            <p>Desde el 23 Ene Hasta 30 Ene</p>
+                            <p>¡Diversion asegurada!</p>
+                            <p>8 camas 2 baños</p>
+                            <p>Precio final p/p $190.000</p>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cuadropropiedades">
-                <h3>Departamento</h3>
+            <div class="cuadropropiedades"id="depa2">
+                <h3 >Departamento 2</h3> 
                 <img src="IMAGENES\depa2.jpg" alt="">
+                <div>
+                    <div>
+                        <div>
+                            <div >
+                                <div class="propiedades">
+                                <p>Desde 15 Feb hasta 20 Feb</p>
+                                <p>¡La escapada perfecta!</p>
+                                <p>4 camas, 1 baño</p>
+                                <p>Precio final p/p $70.000</p>
+                                </div>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="cuadropropiedades"id="depa3">
+                <h3 >Departamento 3</h3>
+                <img src="IMAGENES\depa 3.jpg" alt="">
+                <div>
+                    <div>
+                        <div >
+                            <div class="propiedades">
+                            <p>Desde 1 Feb hasta 16 Feb</p>
+                            <p>¡Mucho mas que un hotel!</p>
+                            <p>3 camas 1 baño</p>
+                            <p>Precio final p/p $70.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cuadropropiedades"id="casa3">
+                <h3 >Casa 3</h3>
+                <img src="IMAGENES\casa 3.jpg" alt="">
+                <div>
+                    <div>
+                        <div >
+                            <div class="propiedades">
+                            <p>Desde 7 Feb hasta 15 Feb</p>
+                            <p>¡La escapada de tu sueños!</p>
+                            <p>6 camas 2 baños</p>
+                            <p>Precio final p/p $150.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     
         <br><br><br>
 
-        <div id="propiedades">
-            <div class="propiedades">
-                <h3>La Martina 860</h3>
-                <p>Desde 28 Ene hasta 28 Feb</p>
-                <p>¡Haz que tus vacaciones sean inolvidables!</p>
-                <p> 12 camas, 3 baños</p>
-                <p>Precio final p/p $100.000</p>
-            </div>
-            <div class="propiedades">
-                <h3>Departamento</h3>
-                <p>Desde 15 Ene hasta 30 Ene</p>
-                <p>¡El lugar que estas buscando!</p>
-                <p> 5 camas, 2 baños</p>
-                <p>Precio final p/p $160.000 </p>
-            </div>
-            <div class="propiedades">
-                <h3>Cabaña</h3>
-                <p>Desde el 23 Ene Hasta 30 Ene</p>
-                <p>¡Diversion asegurada!</p>
-                <p>8 camas 2 baños</p>
-                <p>Precio final p/p $190.000</p>   
-            </div>
-            <div class="propiedades">
-                <h3>Departamento</h3>
-                <p>Desde 15 Feb hasta 20 Feb</p>
-                <p>¡La escapada perfecta!</p>
-                <p>4 camas, 1 baño</p>
-                <P>Precio final p/p $70.000</P>
-            </div>
+        <div class="linea">
+        <hr size="2px" color="red" class="footer-line">
         </div>
+
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <hr size="2px" color="red">
+
+
 <footer>
-    <div id="divcontacto">
-        <h2>¡Contactános!</h2>
-        <ul id="lifooter">
-            <li>Inicio</li>
-            <li>Propiedades</li>
-            <li>Emprendimientos</li>
-            <li>Contacto</li>
-        </ul>
-    </div>    
 
     <div id="divllamar">
         <h2>Llamanos</h2>
@@ -112,5 +164,9 @@
     </div>
 
 </footer>
+
+<script src="java.js"></script>
+
+
 </body>
 </html>
